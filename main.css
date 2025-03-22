@@ -1,0 +1,171 @@
+/*Главный контейнер страницы*/
+.main-content-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1440px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  /*Главный контейнер для шапки сайта*/
+  .header-section {
+    margin-top: 31px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+
+
+  }
+
+  /*Заголовок и меню*/
+  .flex-container-with-text {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /*Логотип*/
+  .vibrant-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 24px Integral CF;
+    color: #3d00b7;
+  }
+
+  /*Вертикальная черта*/
+  .vertical-divider {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 1px;
+    height: 47px;
+    margin-left: 29.5px;
+    border-left: 1px solid #f4f4f4;
+  }
+
+  /*Меню*/
+  .horizontal-menu-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 44px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 34px;
+  }
+
+  /*Стиль меню*/
+  .primary-link {
+    text-decoration: none;
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 16px "DM Sans", sans-serif;
+    color: black;
+    letter-spacing: 0.64px;
+  }
+
+  /*Поик и кнопки*/
+  .header-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 627px;
+  }
+
+  
+  .container-with-svg {
+    flex: 1 0 auto;
+  }
+  
+  /*Поле поиска*/
+  .circular-input-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 50px;
+    background: white;
+    border: 2px solid #efefef;
+    border-radius: 100px;
+  }
+
+  /*Стиль текстового поля поиска*/
+  .input-field-with-placeholder {
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 29px;
+    font: 400 16px "DM Sans", sans-serif;
+    letter-spacing: 0.64px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+
+  .input-style-5ce9d3a6::placeholder {
+    color: silver;
+  }
+
+  /*Иконка поиска*/
+  .icon-container {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-top: 13px;
+    margin-right: 20px;
+    margin-bottom: 13px;
+    color: #757575;
+  }
+
+  /*Две последние кнопки*/
+  .action-panel {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+  .upload-button {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 131px;
+    min-width: 131px;
+    height: 50px;
+    font: 700 14px/14px "DM Sans", sans-serif;
+    color: white;
+    letter-spacing: 0.56px;
+    cursor: pointer;
+    background: #3d00b7;
+    border: none;
+    border-radius: 60px;
+  }
+  .wallet-connect-button {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 156px;
+    min-width: 156px;
+    height: 50px;
+    margin-left: 20px;
+    font: 700 14px/14px "DM Sans", sans-serif;
+    color: #3d00b7;
+    letter-spacing: 0.56px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #3d00b7;
+    border-radius: 60px;
+  }
